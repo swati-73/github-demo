@@ -33,8 +33,9 @@
             <version>3.0.0-M5</version>
             <configuration>
                 <suiteXmlFiles>
-                    <!-- suitname has been paramtermised by ${name}  to run in cmd-- mvn test -dvariable=testname-->
+
                     <suiteXmlFile>src\test\java\${variable}.xml</suiteXmlFile>
+
 
                 </suiteXmlFiles>
             </configuration>
