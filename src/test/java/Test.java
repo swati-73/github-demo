@@ -13,5 +13,10 @@ public class Test {
         assert false;
     }
 
+    @org.testng.annotations.Test
+    public void test3(){
+        System.out.println("test3");
+
+    }
 
 }
